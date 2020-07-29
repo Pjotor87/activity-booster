@@ -1,0 +1,14 @@
+Todo
+----
+x Refactor the Code
+x Clear using statements that are not in use
+> Run code analysis tool
+o Find some clever way to seem active on GitHub
+> Comment the code where needed
+x Document
+o Maybe make a system for it running on a schedule
+x Add tests
+< Encrypt sensitive data
+< Add function to prevent cross site scripting
+o Adding and removal of files!
+> CORS configurations
