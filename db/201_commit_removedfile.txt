@@ -1,14 +1,49 @@
 Removed file
-Deleted file
-Removed a file
+Removed file from project
+Removed file from solution
+Removed file from codebase
+Removed file from repo
+Removed file from repository
 Deleted a file
-Deleted file in the project
-Removed file in the project
+Deleted a file from project
+Deleted a file from solution
+Deleted a file from codebase
+Deleted a file from repo
+Deleted a file from repository
 File deleted in the project
+File deleted in the solution
+File deleted in the codebase
+File deleted in the repo
+File deleted in the repository
 File removed in the project
+File removed in the solution
+File removed in the codebase
+File removed in the repo
+File removed in the repository
 Just deleted a File...
+Just deleted a File in the solution...
+Just deleted a File in the codebase...
+Just deleted a File in the repo...
+Just deleted a File in the repository...
 Just removed a File...
-File removed from solution
-File deleted from solution
+Just removed a File in the solution...
+Just removed a File in the codebase...
+Just removed a File in the repo...
+Just removed a File in the repository...
 Deleted file
-Removed file
+Deleted file in project
+Deleted file in solution
+Deleted file in codebase
+Deleted file in repo
+Deleted file in repository
+We don't need this file here...
+This file doesn't seem to have any use. Deleted it.
+Removed unused file
+Don't remeber this file but seems like I put it there earlier. Anyway... deleted it now.
+Ninja removal of file!! Disaster prevented ;)
+Was troubleshooting our IIS servers, noticed that the ULS and Event logs were throwing some redundant warning regarding this file. Removed it.
+File not found error was requested. I'll make it happen. Easy! Just gonna remove this file here...
+Lynx browser compatibility fix. Removed this here file.
+This file keeps coming back...
+Oh yeah?! Then what I will do for you... is remove this file.
+No... No. This file is not supposed to be here. Deleted it.

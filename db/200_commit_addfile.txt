@@ -1,9 +1,49 @@
 Added file
+Added file to solution
+Added file to codebase
+Added file to repository
+Added file to repo
+Added file to the project
 Added a new file
+Added a new file to the solution
+Added a new file to the project
+Added a new file to the codebase
+Added a new file to the repo
+Added a new file to the repository
+A new file added
+A new file added to the solution
 A new file added to the project
-New file added to the project
-File added to the project
-Just added a file...
-File added to the solution
+A new file added to the codebase
+A new file added to the repo
+A new file added to the repository
+New file added
 New file added to the solution
+New file added to the project
+New file added to the codebase
+New file added to the repo
+New file added to the repository
+File added
+File added to the project
+File added to the solution
+File added to the codebase
+File added to the repo
+File added to the rpository
+Just added a file...
+Just added a file to the project...
+Just added a file to the solution...
+Just added a file to the codebase...
+Just added a file to the repo...
+Just added a file to the repository...
 New file
+Consider this file added
+Much needed file added
+Critical missing file added to the project
+BUG #562 ---> DESCRIPTION: Please add this file to the project ---> SET TASK TO NEW STATUS "RESOLVED"
+Good thing this was caught in time... Now that this file is added though the problem should be solved.
+I knew I forgot something! Now that this file is added everything should be fine though
+Whoa! How did we ever manage without this file? I added it now
+Another crucial file. Thank me later... You'll see.
+Oops, just forgot to add this file hehe
+Damn it, we need this file! I added it now
+Hm, seems a file was missing. I added it now
+This file needs to be here. Please don't remove it. Only I may remove it.
