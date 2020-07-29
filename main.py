@@ -13,7 +13,6 @@ import src.boost as booster
 
 def main(args):
     """ Main entry point of the app """
-    logger.info("hello world")
     logger.info(args)
     booster.boost()
 

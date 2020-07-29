@@ -17,7 +17,6 @@ def get_random(list):
 def git_push(repo, commit_message, files_list, is_add_not_remove=True):
     successful_push = False
     try:
-        logger.debug(repo)
         logger.info("Adding...")
 
         if is_add_not_remove is True:
@@ -73,7 +72,7 @@ def boost(git_repo_url="https://github.com/Pjotor87/activity-booster.git"):
         # Copy file
         copyfile(dummy_file_paths[0], join(ws_this_run_path, dummy_file_names[0]))
         # Add, commit and push
-        successfully_pushed = git_push(repo, get_random(file_contents[1]), [dummy_file_names[0]])
+        successfully_pushed = git_push(repo, get_random(file_contents[2]), [dummy_file_names[0]])
         # Track boost push
         if successfully_pushed is True:
             file_contents[0].append("{0},{1},{2},{3}".format(git_repo_url, this_run, "ADD", dummy_file_names[0]))
@@ -87,7 +86,7 @@ def boost(git_repo_url="https://github.com/Pjotor87/activity-booster.git"):
                 if directive == "ADD":
                     datetime_of_add = datetime.strptime(line.split(',')[1], datetime_format)
                     days_in_hours = (24 * 3)
-                    days_in_hours = 1
+                    days_in_hours = 0
                     removal_datetime = datetime_of_add + timedelta(hours=days_in_hours)
                     if datetime.now() > removal_datetime:
                         # Clone
@@ -95,7 +94,7 @@ def boost(git_repo_url="https://github.com/Pjotor87/activity-booster.git"):
                         repo = Repo.clone_from(git_repo_url, ws_this_second_run_path)
                         # Remove file
                         os.remove(join(ws_this_second_run_path, dummy_file_names[0]))
-                        successfully_pushed = git_push(repo, get_random(file_contents[2]), [dummy_file_names[0]], is_add_not_remove=False)
+                        successfully_pushed = git_push(repo, get_random(file_contents[1]), [dummy_file_names[0]], is_add_not_remove=False)
                         # Track boost push
                         if successfully_pushed is True:
                             file_contents[0].remove(line)
