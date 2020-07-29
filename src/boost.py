@@ -85,9 +85,8 @@ def boost(git_repo_url="https://github.com/Pjotor87/activity-booster.git"):
                 directive = line.split(',')[2]
                 if directive == "ADD":
                     datetime_of_add = datetime.strptime(line.split(',')[1], datetime_format)
-                    days_in_hours = (24 * 3)
-                    days_in_hours = 0
-                    removal_datetime = datetime_of_add + timedelta(hours=days_in_hours)
+                    hours_to_wait = (24 * 0) + 0
+                    removal_datetime = datetime_of_add + timedelta(hours=hours_to_wait)
                     if datetime.now() > removal_datetime:
                         # Clone
                         logger.info("Cloning from {0}".format(git_repo_url))
