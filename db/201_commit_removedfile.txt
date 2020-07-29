@@ -1,0 +1,14 @@
+Removed file
+Deleted file
+Removed a file
+Deleted a file
+Deleted file in the project
+Removed file in the project
+File deleted in the project
+File removed in the project
+Just deleted a File...
+Just removed a File...
+File removed from solution
+File deleted from solution
+Deleted file
+Removed file
